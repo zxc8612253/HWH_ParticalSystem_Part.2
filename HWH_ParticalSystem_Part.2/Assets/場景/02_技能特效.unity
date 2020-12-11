@@ -136,12 +136,12 @@ PrefabInstance:
     - target: {fileID: 21338707126285004, guid: 486f28700155a7e4488e708a13e74c43,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.25
+      value: 1.59
       objectReference: {fileID: 0}
     - target: {fileID: 21338707126285004, guid: 486f28700155a7e4488e708a13e74c43,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.6
       objectReference: {fileID: 0}
     - target: {fileID: 21338707126285004, guid: 486f28700155a7e4488e708a13e74c43,
         type: 3}
@@ -14927,7 +14927,7 @@ GameObject:
   - component: {fileID: 2073358330}
   - component: {fileID: 2073358329}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: "\u6CE2\u7D0B"
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15201,7 +15201,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 1, b: 1, a: 1}
+      maxColor: {r: 1, g: 0.3537736, b: 0.3537736, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -16004,11 +16004,11 @@ ParticleSystem:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
-      cycleCount: 1
-      repeatInterval: 0.01
+      cycleCount: 3
+      repeatInterval: 0.1
       probability: 1
   SizeModule:
-    enabled: 0
+    enabled: 1
     curve:
       serializedVersion: 2
       minMaxState: 1
@@ -16020,18 +16020,18 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 0
-          outSlope: 1
-          tangentMode: 0
+          inSlope: 10.800263
+          outSlope: 10.800263
+          tangentMode: 34
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
         - serializedVersion: 3
-          time: 1
+          time: 0.09259033
           value: 1
-          inSlope: 1
-          outSlope: 0
-          tangentMode: 0
+          inSlope: 10.800263
+          outSlope: 10.800263
+          tangentMode: 34
           weightedMode: 0
           inWeight: 0.33333334
           outWeight: 0.33333334
@@ -16521,7 +16521,7 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -16631,7 +16631,7 @@ ParticleSystem:
     z:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -7
       minScalar: 0
       maxCurve:
         serializedVersion: 2

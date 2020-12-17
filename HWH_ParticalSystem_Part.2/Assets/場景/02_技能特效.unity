@@ -10298,7 +10298,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 2cfd278e96d8e894f96d98b090aca4ad, type: 3}
-    m_FontSize: 40
+    m_FontSize: 36
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -10309,7 +10309,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u65BD\u653E\u6280\u80FD"
+  m_Text: SKILL
 --- !u!222 &1432088278
 CanvasRenderer:
   m_ObjectHideFlags: 0
